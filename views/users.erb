@@ -1,0 +1,14 @@
+<table>
+    <thead>
+        <th>아이디</th>
+        <th>비밀번호</th>
+    </thead>
+    <tbody>
+        <% @users.each do |row|%>
+        <tr>
+            <td><%=row[0]%></td>
+            <td><%=row[1]%></td>
+        </tr>
+        <%end%>
+    </tbody>
+</table>
